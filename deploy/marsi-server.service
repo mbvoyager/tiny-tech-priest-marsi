@@ -1,0 +1,16 @@
+[Unit]
+Description=Marsi local companion
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/tiny-tech-priest-marsi
+ExecStart=%h/tiny-tech-priest-marsi/.venv-server/bin/python -m marsi_local.server --host 0.0.0.0
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+
+[Install]
+WantedBy=default.target

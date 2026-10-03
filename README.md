@@ -1,7 +1,18 @@
 # Marsi, pocket-sized tech-priest
 
-A cute, mildly context-aware nonsense bot for Zulip **or your terminal**. Python 3.10 or newer,
-with **no packages, AI API keys, model downloads, or AI fees**.
+Marsi now has two independent ways to live:
+
+- **Local Qwen companion:** an Ubuntu server and a Raspberry Pi display with
+  push-to-talk, local speech, remembered conversations, and tiny animated rituals.
+  Start with [the local companion guide](docs/start-here.md).
+- **Original template bot:** a cute, mildly context-aware nonsense bot for Zulip
+  **or your terminal**. Python 3.10 or newer, with **no packages, AI API keys,
+  model downloads, or AI fees**. Its instructions continue below.
+
+The local companion is an initial prototype for an i5-4460 / 8 GB server and a
+Pi 3 B+. Model and speech downloads are required for that mode. It runs inference
+locally after setup. Hardware performance and audio devices need testing on the
+actual machines; the original bot remains available as a lightweight alternative.
 
 ## Start and stop
 

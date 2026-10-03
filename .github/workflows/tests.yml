@@ -1,0 +1,20 @@
+name: Marsi tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '${{ matrix.python }}'
+      - run: python -m unittest discover -s tests -v
+      - run: python -m compileall -q marsi_local
+      - run: bash -n scripts/setup-server.sh scripts/setup-pi.sh deploy/marsi-xsession.sh
+      - run: sudo apt-get update && sudo apt-get install -y python3-tk xvfb
+      - run: xvfb-run -a python -m tests.pi_display_smoke
