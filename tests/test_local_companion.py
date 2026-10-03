@@ -2,6 +2,7 @@
 import base64
 from dataclasses import replace
 import io
+import http.client
 import json
 from pathlib import Path
 import tempfile
@@ -199,6 +200,18 @@ class APITests(unittest.TestCase):
     def test_oversized_upload_is_rejected(self):
         with self.assertRaisesRegex(ClientError, "allowed size"):
             self.client.voice(b"x" * 2_000_001)
+        # Check server rejection independently of client-side limits. Sending only
+        # headers avoids OS-specific reset races when a server rejects a body early.
+        connection = http.client.HTTPConnection("127.0.0.1", self.server.server_port, timeout=5)
+        self.addCleanup(connection.close)
+        connection.putrequest("POST", "/v1/voice")
+        connection.putheader("Authorization", "Bearer " + self.token)
+        connection.putheader("Content-Type", "audio/wav")
+        connection.putheader("Content-Length", "2000001")
+        connection.endheaders()
+        response = connection.getresponse()
+        self.assertEqual(response.status, 413)
+        self.assertIn("allowed size", json.loads(response.read())["error"])
 
     def test_ritual_never_calls_llm_or_retains_conversation(self):
         with patch.object(self.app.llm, "chat", side_effect=AssertionError("No inference for rituals")):

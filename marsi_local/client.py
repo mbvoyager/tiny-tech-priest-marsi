@@ -9,6 +9,7 @@ import urllib.request
 
 from .config import load_env, validate_url
 from .core import clean_text, session_name
+from .speech import MAX_AUDIO_BYTES
 
 
 class ClientError(Exception):
@@ -31,7 +32,7 @@ class Client:
         if audio is not None:
             body, headers["Content-Type"] = audio, "audio/wav"
         elif payload is not None:
-            body, headers["Content-Type"] = json.dumps(payload).encode(), "application/json"
+            body, headers["Content-Type"] = json.dumps(payload, ensure_ascii=False).encode(), "application/json"
         else:
             body = None
         request = urllib.request.Request(self.url + path, data=body, headers=headers, method=method)
@@ -57,6 +58,8 @@ class Client:
         return self.request("/v1/chat", {"text": clean_text(text), "session_id": self.session, "want_audio": speak})
 
     def voice(self, recording: bytes, speak=True):
+        if len(recording) > MAX_AUDIO_BYTES:
+            raise ClientError("Recording exceeds the allowed size (2 MB).")
         path = "/v1/voice" if speak else "/v1/voice?want_audio=false"
         return self.request(path, audio=recording)
 
