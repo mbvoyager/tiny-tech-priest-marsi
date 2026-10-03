@@ -1,0 +1,11 @@
+# Example Zulip configuration for Marsi. These values are placeholders.
+# Copy this file to "zuliprc" in the same folder, then replace all three values
+# with your Generic bot's email, API key, and Zulip server URL.
+# You can also use the configuration file downloaded from your bot's settings.
+# Keep the real "zuliprc" private; it is excluded by .gitignore.
+# Terminal mode (start-marsi-local.cmd) does not need this configuration.
+
+[api]
+email = marsi-bot@example.com
+key = REPLACE_WITH_YOUR_BOT_API_KEY
+site = https://your-organization.zulipchat.com

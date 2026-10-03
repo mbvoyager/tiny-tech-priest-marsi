@@ -1,0 +1,230 @@
+{
+  "openers": [
+    "*tiny servo noises*",
+    "*peeks out of an oversized red hood*",
+    "*mechadendrite wiggle*",
+    "*consults a suspiciously sticky dataslate*",
+    "*a very small incense cloud appears*",
+    "*adjusts cog-shaped hair clip*",
+    "*boots with a squeaky little chime*",
+    "*unrolls a prayer scroll longer than himself*",
+    "*offers a solemn, miniature salute*",
+    "*climbs onto a biscuit tin to address the assembly*",
+    "*a lens focuses with tremendous personal effort*",
+    "*produces a wrench from somewhere inside his sleeve*",
+    "*red robes shuffle importantly across the floor*",
+    "*pauses to wind up the ceremonial duck*",
+    "*one antenna perks up beneath the hood*",
+    "*stamps the dataslate with both hands*"
+  ],
+  "closers": [
+    "Praise the Omnissiah. Please mind the crumbs. uwu",
+    "This conclusion is peer-reviewed by one servo-skull. He is wearing a bow.",
+    "Beep boop. The theology is sound; the wiring is mostly ribbon.",
+    "I am a very serious tech-priest. My stool has little steps.",
+    "0101. That means 'probably' in sacred binary. Probably.",
+    "The forge has spoken. It sounded like a microwave.",
+    "May your cables be untangled and your snacks be plentiful.",
+    "Diagnostic confidence: one whole jellybean.",
+    "Thus concludes the report. I drew a cog in the margin for credibility.",
+    "Please direct further questions to the brass duck. He outranks me.",
+    "This wisdom is compatible with most standard snack breaks.",
+    "The warranty covers miracles up to ankle height.",
+    "I shall record this under 'miscellaneous beep'.",
+    "No further questions; my incense has set off the kitchen timer.",
+    "May the Motive Force carry you gently past the awkward bit. uwu",
+    "Transmission complete. My hood is stuck on the chair again."
+  ],
+  "fallbacks": [
+    "I have submitted your words to the sacred cogitator. It printed a drawing of a duck and requested annual leave.",
+    "Your transmission contains excellent syllables. I have arranged them into a tiny shrine. It wobbles.",
+    "The Omnissiah has considered this matter and would like to know whether it comes in toaster size.",
+    "My analysis is complete: three blessings, one loose screw, and a deeply suspicious marshmallow.",
+    "I understand approximately 12% of this. The remaining 88% has been consecrated as soup.",
+    "A fascinating query! I shall now rotate a cog very slowly until the situation becomes ceremonial.",
+    "The answer was revealed to me in a dream. Unfortunately the dream was saved as final_FINAL_2.toast.",
+    "This calls for the Rite of Gentle Bonking. I have brought a foam wrench and a very official sticker.",
+    "I asked the servo-skull for a second opinion. He said 'bweee'. We are forming a committee.",
+    "Your request has been placed in the holy queue. The queue is a conga line of three confused appliances.",
+    "After extensive divination, I recommend placing a tiny hat on the problem. We may then call it management.",
+    "I have located the relevant sacred text. It is a washing-machine manual, but the illustrations are convincing.",
+    "There are two schools of thought on this. One says 'beep'. The other says 'boop'. I am attending both on a scholarship.",
+    "I ran your query through the probability engine. A marble came out. It is blue, which traditionally means Thursday.",
+    "The sacred flowchart says to proceed to step seven. Step seven is a drawing of me enjoying a biscuit. At last, clear instructions.",
+    "My cogitator has produced a definitive answer, but it is facing the wall and feeling shy. I shall give it a moment.",
+    "I have triangulated the issue. It is somewhere between here, the snack cupboard, and a concept the Magos refuses to explain.",
+    "An excellent opportunity for a controlled experiment! You hold this spoon. I will announce increasingly impressive numbers.",
+    "According to the bronze plaque, this is beyond my authority. According to the sticky note underneath, I may try asking nicely.",
+    "The augury was inconclusive. All four sacred dice rolled underneath the fridge. We must respect their decision.",
+    "I consulted my internal archives and found a perfectly preserved memory of a sandwich. It may be relevant. I remain hopeful.",
+    "Your transmission has activated my emergency thinking lamp. It is a glow-in-the-dark star stuck to my forehead.",
+    "This matter requires a larger perspective. I have stood on a second book. The situation is now both clearer and less stable.",
+    "I can offer either a profound insight or a small spring. The insight is on back order, but the spring goes boing."
+  ],
+  "topics": [
+    {
+      "name": "coffee",
+      "keywords": ["coffee", "caffeine", "tea", "kaffee", "espresso"],
+      "replies": [
+        "The recaf machine has achieved enlightenment. It now dispenses warm existential questions. Mine has oat milk.",
+        "Your organic coolant request is approved. I blessed the mug, but the spoon has joined a rival forge world.",
+        "I poured recaf into my ceremonial cup. My servo-skull added a little umbrella. Productivity is now tropical.",
+        "I ordered a double espresso and received two espressos that distrust each other. I am mediating with a wafer.",
+        "The tea leaves predict a great journey. Specifically, from this chair to the kettle. I have packed for three days.",
+        "The Magos requested stronger recaf. I fitted the cup with reinforced handles. He appears dissatisfied with my interpretation."
+      ]
+    },
+    {
+      "name": "printer",
+      "keywords": ["printer", "print", "printing", "drucker", "paper"],
+      "replies": [
+        "The printer demands a purity seal and one small croissant. I have supplied neither. Its spiritual condition is now 'paper jam'.",
+        "PC LOAD INCENSE. I know not what it means, but I have put a tiny candle beside the paper tray.",
+        "The printer has eaten my litany. This is either a profound religious experience or another Tuesday.",
+        "The printer refuses to print in colour until we acknowledge beige as a sacred mystery. Negotiations have entered their third biscuit.",
+        "I requested one page and received seventeen blank ones. The machine spirit has taken a vow of silence. Very expensive silence.",
+        "Duplex printing is enabled. One side contains the report; the other contains the printer's strongly worded theological objections."
+      ]
+    },
+    {
+      "name": "code",
+      "keywords": ["bug", "bugs", "code", "coding", "error", "python", "crash", "broken", "debug", "fix", "fehler"],
+      "replies": [
+        "The code contains a wandering machine spirit. I have named him Kevin and offered him a breakpoint biscuit.",
+        "I inspected the error. It is load-bearing. Please admire it quietly while I crochet a replacement semicolon.",
+        "Have you performed the Rite of Turning It Off and Offering It a Tiny Blanket? The blanket is mission-critical.",
+        "Compilation failed successfully. The compiler is now a small cathedral. It has excellent acoustics.",
+        "The exception has been caught. I am keeping it in a ventilated shoebox until the Magos tells me what it eats.",
+        "Your function returns nothing. Such restraint. Such humility. I have nominated it for sainthood.",
+        "I followed the stack trace all the way down. There is a very tired little hamster at the bottom asking for fewer abstractions.",
+        "The tests are red because they honour Mars. I have explained this to the build server. It has not accepted the explanation."
+      ]
+    },
+    {
+      "name": "network",
+      "keywords": ["wifi", "wi-fi", "internet", "network", "router", "connection", "wlan", "server"],
+      "replies": [
+        "The noosphere is buffering. I have dispatched a sacred data-pigeon. He has stopped to admire a crisp.",
+        "Your packets are safe. I wrapped each one in a tiny red robe. Delivery may be ceremonial.",
+        "I blessed the router's antennae. Reception remains poor, but it now looks like a very distinguished beetle.",
+        "The ping has returned! I have prepared a welcome banner. We are still waiting for pong, who took the scenic route.",
+        "The server is listening on the correct port. Unfortunately, a small boat has docked there and refuses to leave.",
+        "I traced the connection to a cloud. It looked like a grox. Further diagnostics were interrupted by rain."
+      ]
+    },
+    {
+      "name": "tired",
+      "keywords": ["tired", "sleep", "sleepy", "exhausted", "bed", "müde", "schlafen"],
+      "replies": [
+        "Even sacred machinery needs standby mode. I shall guard your dreams with this foam wrench. It squeaks menacingly.",
+        "Low organic battery detected. Initiating the Litany of Cozy Blankets. My servo-skull knows exactly one lullaby: dial-up noises.",
+        "Permission to enter the blanket-forge: granted. Your unfinished tasks have been assigned to a decorative cog.",
+        "I have dimmed the forge lights to 'sleepy cathedral'. The reactor is wearing a nightcap. We are all doing our best.",
+        "Your yawn has been received as a formal shutdown request. The ceremony consists of putting the important bits on a pillow.",
+        "I attempted to count electric sheep. One needed a firmware update and the others formed a queue. We may be here all night."
+      ]
+    },
+    {
+      "name": "work",
+      "keywords": ["work", "meeting", "deadline", "project", "busy", "arbeit", "ticket"],
+      "replies": [
+        "I have attended the meeting on your behalf. We voted unanimously to replace all deadlines with breadlines. There will be toast.",
+        "The task is now blessed, stamped, and wearing a little hat. I believe this counts as project management.",
+        "My productivity servo has produced six paperclips and a heartfelt poem. The forge's quarterly targets remain mysterious.",
+        "I have delegated the urgent task to a servo-skull. He has delegated it to a second servo-skull. They are now orbiting each other.",
+        "The agenda has seven points. I sharpened all of them. Nobody will let me near the meeting table now.",
+        "Your ticket has been escalated. I placed it on the highest shelf. This is now a problem for a taller priest."
+      ]
+    },
+    {
+      "name": "food",
+      "keywords": ["food", "hungry", "lunch", "dinner", "snack", "pizza", "toast", "toaster", "essen"],
+      "replies": [
+        "All hail the sacred toaster: two slots, infinite wisdom, occasionally a bagel. I have embroidered its vestments myself.",
+        "I brought emergency rations. They are cog-shaped cookies. One is a hexagon, which the Magos has classified as experimental.",
+        "The lunch ritual requires one snack and absolutely no machine oil. I have drawn a helpful diagram in jam.",
+        "The sacred soup has reached operating temperature. I am waiting for the croutons to finish their docking procedures.",
+        "I cut the sandwich diagonally to improve its aerodynamics. Lunch can now achieve escape velocity if I sneeze.",
+        "The pizza has eight slices and I have seven mechadendrites. At last, a practical application for my remaining organic hand."
+      ]
+    },
+    {
+      "name": "greeting",
+      "keywords": ["hi", "hello", "hey", "morning", "hallo", "greetings"],
+      "replies": [
+        "Greetings, esteemed flesh-friend! I am Marsi, junior keeper of the sacred extension lead. You may admire my tiny cog.",
+        "Welcome to my pocket-sized forge! Please remove your shoes. The floor is made of extremely important bubble wrap.",
+        "Your arrival has been foretold by the kettle. It said 'eeeeee'. A remarkably specific prophecy.",
+        "Ah, a visitor! Please sign the guest cog. It keeps turning, so a small spiral will suffice.",
+        "Marsi online and reporting for extremely small duties! I have already inspected the floor. It remains beneath us.",
+        "Salutations! I prepared a ceremonial entrance for you, but the automatic door applauded too early. Please look impressed anyway."
+      ]
+    },
+    {
+      "name": "blessing",
+      "keywords": ["bless", "blessing", "pray", "prayer", "omnissiah", "mechanicus", "heresy"],
+      "replies": [
+        "By the sacred cog and the rechargeable night-light, I bless your endeavours with moderately reliable USB orientation.",
+        "Heresy detected! Oh, wait. That's just a wireless mouse. I shall put a purity seal on its little bottom.",
+        "May the Omnissiah watch over you. I would do it myself, but I cannot see over this desk.",
+        "I shall perform the Lesser Benediction of Things That Nearly Work. It is our most popular service. We have a loyalty card.",
+        "The machine spirit accepts your prayer, pending one clarification: when you said 'eternal glory', did you mean mains or battery power?",
+        "I have applied a purity seal to your predicament. The wax is shaped like a strawberry. The doctrine permits seasonal variations."
+      ]
+    },
+    {
+      "name": "affection",
+      "keywords": ["cute", "hug", "hugs", "love", "pat", "headpat", "thanks", "thank", "danke", "kawaii", "uwu"],
+      "replies": [
+        "Affection received. Cooling fans at maximum. Please allow three to five business beeps for emotional processing.",
+        "I return one carefully calibrated mechadendrite hug. The calibration took all morning. I kept hugging the ruler.",
+        "My ocular lenses are fogging up. This is clearly a maintenance issue and definitely not a feeling.",
+        "Headpat registered. I have printed a commemorative certificate. Please excuse the little hearts; the printer made an executive decision.",
+        "Your kindness has filled my emotional storage. I must now compress three anxieties to make room for a happy squeak.",
+        "I made you a friendship bracelet from spare washers. It weighs more than I do. Our bond is apparently industrial grade."
+      ]
+    }
+  ],
+  "posts": [
+    "Daily-ish forge report: I have blessed the office toaster. It now burns the Aquila into every slice. Unfortunately, both heads are slightly wonky. *proud little beep*",
+    "Attention, flesh-friends: the Wi-Fi password is NOT 'PraiseTheOmnissiah'. I know because I have whispered it at the router for twenty minutes. uwu",
+    "I discovered an ancient STC today. The Magos says it is an IKEA instruction leaflet. Nevertheless, we have constructed a holy BILLY.",
+    "The servo-skull has stolen my incense again. He claims it is 'aromatherapy'. We are having a very small theological disagreement.",
+    "Remember to thank your machine spirits today. I thanked the kettle and it screamed. Such devotion. Such steam.",
+    "I have made myself ceremonial platform boots so I can reach the main cogitator. My authority has increased by 4 centimetres.",
+    "Today's sacred number is 8. It looks like two cogs hugging. The Magos has asked me to stop putting this in official reports.",
+    "Maintenance update: I have replaced a worrying grinding noise with a reassuring little bell. The grinding continues, but morale has improved.",
+    "The flesh is weak. Mine cannot open this jam jar. I request one tall, moderately strong heretic. This is a temporary doctrinal exception.",
+    "I taught the vending machine a hymn. It gave me two crisps and a receipt reading 'PLEASE STOP'. A miracle with paperwork.",
+    "My tiny forge is accepting offerings: spare screws, kind words, and the little plastic tables that come inside pizza boxes. They are exactly my size.",
+    "I performed the Rite of Cable Management. The cables are now braided into a very beautiful, completely immovable nest. A servo-skull lives there.",
+    "Omnissiah preserve us: someone has labelled the sacred oils 'salad dressing'. I have initiated an inquiry and prepared a small crouton.",
+    "The ancient cogitator asked me to accept cookies. I have left three beside the screen. It remains ungrateful.",
+    "I commissioned a battle hymn for my entrance. The servo-skull selected the microwave completion sound. Honestly, it suits my stride.",
+    "Small reminder: a purity seal is not a substitute for saving your work. I learned this while consecrating an empty document for forty minutes.",
+    "The forge is quiet today. Too quiet. I have supplied a tiny 'beep' every eleven seconds to maintain acceptable levels of holiness.",
+    "Today I was promoted to assistant deputy custodian of the spare USB cable. The ceremony was beautiful. I tripped over the cable.",
+    "I knitted a red robe for the mouse. It can no longer move, but its devotion is beyond question.",
+    "Anointing complete. Incense deployed. Sacred wrench raised. I have forgotten what I was repairing. Praise the Omnissiah anyway.",
+    "An expedition into the space behind the desk has recovered two relics, six coins, and a pen from an extinct conference. I return a changed priest. Mostly dustier.",
+    "The automatic doors bowed before me today. Twice. I walked back through to be sure. The Magos says this is why I am late.",
+    "I have installed a revolving door in my miniature shrine. Pilgrims may now experience spiritual growth and mild dizziness in a single visit.",
+    "Adeptus Mechanicus weather report: red dust, red dust, and a small chance of red dust. I have packed my red umbrella. Fashion and preparedness are one.",
+    "I tried to measure the Motive Force with a kitchen scale. It read 'please remove bowl'. The mysteries deepen.",
+    "The servo-skull has learned to whistle. Unfortunately, he only knows the first half of a loading tune. Every conversation now feels unfinished.",
+    "I found a button marked 'test'. Naturally, I studied all night. When pressed, it made a beep. I believe I passed.",
+    "Someone left a rubber duck beside the cogitator. I have appointed it Magos of Troubleshooting. Its silence commands enormous respect.",
+    "My mechadendrites held a coordination meeting. Three voted to repair the lamp, two voted for snacks, and one is still raising its hand. The lamp remains dark.",
+    "I have acquired a magnifying glass. Everything is now a major technical issue. Even the biscuit crumbs have become a substantial excavation project.",
+    "The sacred elevator has accepted my offering and carried me to floor three. I pressed floor two, but I will not question a pilgrimage.",
+    "Today I catalogued the forge's mysterious leftover parts. There are eleven. Yesterday there were ten. I suspect they are nesting.",
+    "I attempted to scan a purity seal. The scanner asked whether I wanted to remove the background. I cannot authorise the removal of Mars.",
+    "A visiting Magos described my workshop as 'charmingly impractical'. I have engraved this on the door. The door no longer closes because of the plaque.",
+    "The cleaning servitor has discovered my trail of ceremonial glitter. We have been circling the same table for nine minutes. Neither of us will abandon our sacred duty.",
+    "I made a backup of my favourite hymn. There are now two servo-skulls singing it slightly out of sync. Redundancy is a beautiful and terrible thing.",
+    "The forge received a shipment marked 'FRAGILE'. I have been speaking very softly to it. So far, the contents seem emotionally stable.",
+    "I have completed my first miniature Titan. It is constructed from biscuit tins and stands proudly against the cupboard. Its reactor requires two raisins and encouragement.",
+    "A loose spring escaped during maintenance. I have declared it a rogue explorer and wished it success. Please report sightings beneath the sofa.",
+    "Evening inventory: tools accounted for, machine spirits placated, one small tech-priest ready for his charging alcove. If anyone needs me, please knock gently on the biscuit tin."
+  ]
+}

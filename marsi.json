@@ -1,0 +1,15 @@
+{
+  "channel": "Town Square",
+  "topic": "Marsi's tiny machine sermons",
+  "automatic_posts": true,
+  "hourly_machine_art": true,
+  "machine_art_interval_minutes": 60,
+  "post_interval_min_hours": 48,
+  "post_interval_max_hours": 72,
+  "reply_to_mentions": true,
+  "log_conversations": true,
+  "reply_cooldown_seconds": 8,
+  "max_replies_per_minute": 12,
+  "max_message_age_seconds": 300,
+  "poll_seconds": 5
+}
