@@ -89,6 +89,10 @@ ready-to-use prompt for continuing development on Ubuntu.
 Marsi's persona follows the owner's description and the repository's existing
 `phrases.json`: cute, tiny, devoted to the Machine God of Mars, proud of the
 Adeptus Mechanicus, warm toward humanity, and fond of tiny machine blessings.
+His updated premise places him physically in a Mars reliquary in the 40K
+universe, linked to our Terra by an unexplained machine flow. He wants concrete
+data and useful observations. The local LLM receives core setting context and
+relevant facts from the sourced lore library in marsi_local/lore.json.
 The shared ChatGPT background link could not be read during this setup, so its
 contents have not been incorporated or invented.
 

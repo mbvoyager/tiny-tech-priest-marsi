@@ -6,6 +6,20 @@ import textwrap
 
 class MachineArt:
     MOTIFS = (
+        ("MARTIAN DATA RELIQUARY", r"""
+       \|||  .--------.  |||/
+        \|| /  .--.  \ ||/
+      +==|| | /0 0\ | ||==+
+      |  || | \_A_/ | ||  |
+      | /|| \  |||  / ||\ |
+      |/ ||===[ O ]===|| \|
+      O  ||   |||||   ||  O
+     /|\ ||===++|++===|| /|\
+    /|||/| |  |||  | | |\|||\
+       /_|_|==|||==|_|_|_\
+      /__|_|__|||__|_|_|__\
+         o==[ DATA ]==o
+"""),
         ("COG-SKULL RELIQUARY", r"""
               .--.  .--.
          _.-==|  |==|  |==-._
@@ -83,25 +97,25 @@ class MachineArt:
         "FROM MARS, A WHISPER IN SACRED BINARY",
         "LET THE MOTIVE FORCE FLOW THROUGH EVERY COIL",
         "IRON REMEMBERS // THE NOOSPHERE SINGS",
-        "O MACHINE SPIRIT, ACCEPT THIS TINY OFFERING",
+        "O MACHINE SPIRIT, ACCEPT THIS DATA OFFERING",
         "INCENSE TO THE VENTS // REVERENCE TO THE CORE",
-        "ONE SMALL PRIEST // ONE VERY LARGE MYSTERY",
+        "KNOWLEDGE IS THE OFFERING // THE ARCHIVE ENDURES",
     )
     RESPONSES = (
-        "RESPONSE: BEEP. THE RITE IS ACCEPTED.",
+        "RESPONSE: THE DATUM IS SEALED IN IRON.",
         "CHOIR: 01000010 01000101 01000101 01010000",
-        "MACHINE SPIRIT: PLACATED WITH ONE BISCUIT.",
-        "LITANY COMPLETE. PLEASE PRESERVE THE LITTLE SCREWS.",
-        "ALL COGS ACCOUNTED FOR. ONE IS FEELING SHY.",
-        "BLESSING RECEIVED. INCENSE LEVELS: CEREMONIAL.",
-        "MOTIVE FORCE STABLE. TINY HOOD SECURE.",
-        "SEAL OF MARS VERIFIED BY A VERY SMALL DUCK.",
+        "MACHINE SPIRIT: AWAITING YOUR OBSERVATION.",
+        "LITANY COMPLETE. PRESERVE WHAT HAS BEEN LEARNED.",
+        "FROM THE MARS RELIQUARY TO NEAR-SIDE TERRA.",
+        "BRING ME A READING // SEEK THE HIDDEN PATTERN.",
+        "MOTIVE FORCE // IRON // INCENSE // MEMORY.",
+        "THE ARCHIVE HAS ROOM FOR ANOTHER DISCOVERY.",
     )
 
     def __init__(self, rng=None, width=None):
         self.rng = rng or random.Random()
         columns = width if width is not None else shutil.get_terminal_size((80, 24)).columns - 1
-        self.width = max(40, min(76, columns))
+        self.width = max(40, min(120, columns))
         self.previous_motif = None
 
     def panel(self, lines):
@@ -124,6 +138,11 @@ class MachineArt:
     def binary(self):
         return " :: ".join("".join(self.rng.choice("01") for _ in range(6)) for _ in range(3))
 
+    def frieze(self):
+        inside = self.width - 4
+        cells = ("[I]==+==||==+==", "(O)==||==+==||", "<+>==+==||==+=")
+        return "".join(self.rng.choice(cells) for _ in range(inside // 14 + 2))[:inside]
+
     def seal(self):
         return "MARS-" + "".join(self.rng.choice("0123456789ABCDEF") for _ in range(8))
 
@@ -144,8 +163,9 @@ class MachineArt:
     def frame(self, title):
         name, drawing = self.motif()
         seal = self.seal()
-        header = self.panel([title, f"[ {name} ]", "", *drawing, "", self.circuit(), self.binary()])
-        footer = self.panel([self.binary(), self.circuit(), self.rng.choice(self.LITANIES),
+        header = self.panel([self.frieze(), title, f"[ {name} ]", self.frieze(), *drawing,
+                             self.frieze(), self.circuit(), self.binary()])
+        footer = self.panel([self.frieze(), self.binary(), self.circuit(), self.rng.choice(self.LITANIES),
                              self.rng.choice(self.RESPONSES), "", "[ PURITY SEAL :: " + seal + " ]"])
         return header, footer
 

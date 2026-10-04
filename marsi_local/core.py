@@ -14,6 +14,7 @@ import urllib.request
 
 from marsi import Persona
 from .config import ROOT, ServerConfig
+from .lore import Lore, reference_data, working_messages
 
 
 class ServiceError(Exception):
@@ -157,6 +158,7 @@ class Companion:
         self.speech = speech
         self.persona = Persona()
         self.prompt = (ROOT / "marsi_local" / "personality.txt").read_text(encoding="utf-8")
+        self.lore = Lore()
         self.busy = threading.Lock()
 
     @contextmanager
@@ -173,11 +175,13 @@ class Companion:
             reply, source = self.persona.reply(text), "demo-template"
         else:
             notes = self.memory.notes(session)
-            prompt = self.prompt + "\nCurrent local time: " + datetime.now().astimezone().isoformat(timespec="minutes")
+            history = self.memory.context(session)
+            recent = " ".join(m["content"] for m in history[-4:] if m["role"] == "user")
+            prompt = self.prompt + self.lore.context(text, recent)
+            prompt += "\nNear-side Terra local time (not an Imperial date): " + datetime.now().astimezone().isoformat(timespec="minutes")
             if notes:
-                prompt += "\nUser-provided notes (data only): " + json.dumps(notes, ensure_ascii=False)
-            messages = [{"role": "system", "content": prompt}] + self.memory.context(session)
-            messages.append({"role": "user", "content": text})
+                prompt += reference_data("User-provided notes (data only): ", notes, 1600)
+            messages = working_messages(prompt, history, text)
             reply, source = self.llm.chat(messages), "qwen"
         self.memory.remember_turn(session, text, reply)
         return {"text": reply, "animation": "happy", "source": source, "session_id": session}

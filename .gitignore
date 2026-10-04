@@ -14,3 +14,4 @@ __pycache__/
 .pytest_cache/
 dist/
 *.zip
+artifacts/marsi-design/preview-libraries/

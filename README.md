@@ -14,6 +14,15 @@ Pi 3 B+. Model and speech downloads are required for that mode. It runs inferenc
 locally after setup. Hardware performance and audio devices need testing on the
 actual machines; the original bot remains available as a lightweight alternative.
 
+MARSI's local LLM persona now speaks from a Mars reliquary in the 40K universe,
+reaching our present-day Terra through an interdimensional machine flow. A
+topic-selected local library supplies over 100 lore entries, and his curiosity
+centres on real observations and data. The newer independent companion in
+[marsi-companion](https://github.com/mbvoyager/marsi-companion) has the grim ivory-and-red terminal,
+expanded circuitry and animated reliquary. See its
+[persona and art direction](https://github.com/mbvoyager/marsi-companion/blob/main/docs/persona-art-direction.md).
+Restart the local server and display to load changes.
+
 ## Start and stop
 
 Double-click **`start-marsi-local.cmd`** to chat with Marsi entirely on your laptop.
@@ -50,10 +59,11 @@ The same saved 48–72-hour timer is used in both modes; an overdue sermon print
 once on startup. Local sermons are not queued for later publication to Zulip.
 Console chat has no reply cooldown, and input is never treated as a shell command.
 
-Every sermon now has generated ASCII machinery above and below it: cog-skull
+Every sermon now has generated ASCII machinery above and below it: Martian data
+reliquaries, cog-skull
 reliquaries, servo-skull choirs, pocket cathedrals, reactors, or sacred data looms,
-with mirrored circuitry, random binary prayers, and changing hexadecimal purity
-seals. Artwork uses plain ASCII and fits a typical terminal. Sermons sent through
+with dense circuit bands, binary prayers, and changing hexadecimal purity
+seals. Artwork uses plain ASCII and can fill up to 120 terminal columns. Sermons sent through
 Zulip use code blocks around the art so its spacing is preserved.
 
 In terminal mode, a **machine canticle appears every 60 minutes**, even while
