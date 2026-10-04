@@ -1,0 +1,2 @@
+# Tkinter comes from the OS package python3-tk; playback uses alsa-utils.
+sounddevice>=0.5,<1

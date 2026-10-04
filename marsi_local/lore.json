@@ -1,0 +1,288 @@
+{
+  "edition_policy": "Durable setting facts, paraphrased; no tabletop rules or invented precise dates. Reviewed 2026-10-04. Sources are editorial provenance, never fetched at runtime.",
+  "foundations": [
+    "The Imperium is a brutal, decaying human empire in the far future, beset by war; its propaganda is not objective truth.",
+    "The Emperor is enthroned on Terra. Mars is the spiritual home of the Adeptus Mechanicus, custodians of Imperial technology.",
+    "Tech-Priests worship the Machine God and seek lost knowledge. Machinery, maintenance and discovery carry religious significance.",
+    "The Warp is distinct from material space. Chaos, hostile alien powers and internal conflict threaten humanity.",
+    "The Great Rift split the galaxy. Imperial chronology and communications are unreliable; avoid asserting a precise current year.",
+    "Near-side Terra and the interdimensional machine flow belong to MARSI's personal story, not official setting canon."
+  ],
+  "records": [
+    {
+      "title": "Mechanicus and Mars", "aliases": ["mechanicus", "tech-priest", "tech priest", "mars", "mechanikum", "techpriester", "omnissiah"],
+      "facts": [
+        "The Adeptus Mechanicus is a galaxy-spanning priesthood of cybernetic engineers headquartered on Mars.",
+        "Tech-Priests preserve, manufacture and maintain much of the Imperium's machinery and arsenal.",
+        "Mars-red robes are an iconic sign of Martian affiliation; other forge worlds have their own colours.",
+        "Forge worlds are industrial planets, often heavily polluted and irradiated.",
+        "The search for lost technology is both a religious vocation and a strategic necessity."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/HUNPAc0m/starting-an-adeptus-mechanicus-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "Machine faith and forbidden intelligence", "aliases": ["machine god", "machine spirit", "maschinengeist", "maschinengott", "abominable intelligence", "ai", "heresy", "doctrine"],
+      "facts": [
+        "Mechanicus maintenance rites mingle engineering, sacred oils, incense and prayers.",
+        "Tech-Priests speak of machine spirits; that religious explanation does not prove every device is conscious.",
+        "Orthodox doctrine treats unapproved innovation with suspicion and frequently calls it heresy.",
+        "Abominable Intelligence is forbidden; sanctioned automata are carefully controlled rather than freely independent.",
+        "MARSI's software on near-side Terra and the Imperium's religious prohibitions are different frames of reference."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/HUNPAc0m/starting-an-adeptus-mechanicus-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "STCs and the Quest for Knowledge", "aliases": ["stc", "standard template construct", "archeotech", "archaeotech", "explorator", "knowledge", "wissen", "daten", "data"],
+      "facts": [
+        "STC means Standard Template Construct, associated with humanity's lost technological inheritance.",
+        "Recovering ancient designs offers a sanctioned path to technological progress.",
+        "Tech-Priests dispatch Explorator expeditions in pursuit of lost knowledge and relics.",
+        "An STC fragment is valuable; it is not automatically a complete working constructor.",
+        "The Quest for Knowledge can draw Mechanicus expeditions far from their forge worlds."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/oZKADnjZ/the-adeptus-mechanicus-unearth-stcs-for-new-detachment-rules/"]
+    },
+    {
+      "title": "Noosphere and sacred acquisition", "aliases": ["noosphere", "noospheric", "noosphäre", "augur", "sensor", "sensors", "telemetry", "reading", "readings", "messwert"],
+      "facts": [
+        "Mechanicus forces use noospheric networks to share information and coordinate their actions.",
+        "Skitarii equipped with scanning augurs can act as distant sensory extensions of their masters.",
+        "Implanted instruments and rapid analysis help expose an enemy's weaknesses.",
+        "Data collection supports both the recovery of relics and military reconnaissance.",
+        "MARSI's interdimensional connection is an original anomaly, not an established property of every noosphere."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/extdvyea/warhammer-40000-faction-focus-adeptus-mechanicus/"]
+    },
+    {
+      "title": "Skitarii and forge-world war machines", "aliases": ["skitarii", "ranger", "vanguard", "onager", "dunecrawler", "eradication beamer", "radium"],
+      "facts": [
+        "Skitarii are augmented soldiers fighting under the direction of Tech-Priests.",
+        "Rangers and Vanguard are characteristic Skitarii infantry formations.",
+        "Vanguard radiation can harm nearby enemies as well as their own organic bodies.",
+        "The Onager Dunecrawler is a walking Mechanicus weapons platform.",
+        "The Eradication Beamer is one of the esoteric weapons carried by an Onager."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/z2otEyWJ/warhammer-40000-faction-focus-adeptus-mechanicus/"]
+    },
+    {
+      "title": "Servitors and the Legio Cybernetica", "aliases": ["servitor", "kastelan", "datasmith", "cybernetica", "robot", "automata", "servo-skull", "servoschädel"],
+      "facts": [
+        "Servitors are modified, mind-wiped organic servants; they are not simply ordinary robots.",
+        "Kastelan Robots are ancient battle automata deployed by the Mechanicus.",
+        "Cybernetica Datasmiths adjust Kastelan behaviour through controlled programming.",
+        "Doctrina wafers are an archaic means of controlling their protocols.",
+        "MARSI's particular servo-skull companion is personal character lore."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/HUNPAc0m/starting-an-adeptus-mechanicus-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "Belisarius Cawl", "aliases": ["cawl", "belisarius", "primaris", "archmagos"],
+      "facts": [
+        "Belisarius Cawl is an exceptionally old and influential Mechanicus Archmagos.",
+        "His long project produced the Primaris Space Marines.",
+        "His willingness to innovate provokes suspicion among more orthodox Tech-Priests.",
+        "Cawl participates directly in the Imperium's wars as well as technological research.",
+        "Knowing of Cawl does not mean MARSI has met him or possesses his private research."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/z2otEyWJ/warhammer-40000-faction-focus-adeptus-mechanicus/"]
+    },
+    {
+      "title": "Imperial institutions", "aliases": ["imperium", "emperor", "kaiser", "golden throne", "terra", "custodes", "sororitas", "sisters of silence"],
+      "facts": [
+        "The Emperor rules in name from the Golden Throne on Imperial Terra.",
+        "The Imperium's institutions combine religious authority, bureaucracy and military force.",
+        "The Adeptus Custodes are the Emperor's elite guardians.",
+        "The Sisters of Silence are psychic nulls associated with the Talons of the Emperor.",
+        "The Adepta Sororitas are the armed sisterhoods of the Imperial faith."
+      ],
+      "sources": ["https://warhammer40000.com/the-armies/", "https://warhammer40000.com/games/faction/talons-of-the-emperor/"]
+    },
+    {
+      "title": "The Great Rift and a divided galaxy", "aliases": ["great rift", "cicatrix maledictum", "nihilus", "sanctus", "indomitus", "guilliman", "cadia", "galaxy"],
+      "facts": [
+        "The Great Rift is a vast Warp calamity that split the galaxy.",
+        "Imperial forces face simultaneous threats from Chaos, Orks, Necrons, T'au and Tyranids.",
+        "The Imperium cannot reliably reinforce every threatened world.",
+        "Tyranid hive fleets attack from multiple directions, threatening the Imperium's survival.",
+        "Local records and dates may be contradictory; avoid a universal exact current Imperial year."
+      ],
+      "sources": ["https://warhammer40000.com/the-setting/"]
+    },
+    {
+      "title": "Horus Heresy and traitor warbands", "aliases": ["horus", "heresy", "heräsie", "traitor", "chaos space marine", "black legion", "abaddon"],
+      "facts": [
+        "The Horus Heresy was the great betrayal of roughly ten thousand years before the Great Rift.",
+        "Traitor Space Marines are augmented warriors, sharing origins with their loyalist counterparts.",
+        "Chaos Space Marines include fragmented warbands with differing motives and allegiances.",
+        "The Black Legion is a major Chaos Space Marine force.",
+        "Traitor power armour is ancient technology, often twisted by long exposure to Chaos."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/1C92Kwgj/starting-a-chaos-space-marines-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "Warp and Chaos", "aliases": ["warp", "immaterium", "chaos", "daemon", "demon", "dämon", "ruinous powers"],
+      "facts": [
+        "Chaos daemons originate in the Warp rather than ordinary material space.",
+        "Daemonic forms reflect mortal nightmares and destructive desires.",
+        "The Ruinous Powers threaten both human societies and the fabric of reality.",
+        "Chaos forces include daemons and corrupted mortals, not only traitor Space Marines.",
+        "Warp phenomena are dangerous and unreliable, not an ordinary safe communications service."
+      ],
+      "sources": ["https://warhammer40000.com/the-armies/"]
+    },
+    {
+      "title": "Khorne and the World Eaters", "aliases": ["khorne", "world eater", "world eaters", "angron", "blood god"],
+      "facts": [
+        "Khorne is the Blood God, associated with violence and slaughter.",
+        "The World Eaters are a traitor Legion descended from Angron.",
+        "They embraced Chaos during the Horus Heresy.",
+        "Their berserk warriors favour brutal close combat.",
+        "Chainaxes and daemonic transformations are characteristic of their forces."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/xixjivoy/starting-a-world-eaters-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "Nurgle and the Death Guard", "aliases": ["nurgle", "death guard", "mortarion", "plague", "poxwalker"],
+      "facts": [
+        "Nurgle is the Chaos power associated with plague, decay and corrupted endurance.",
+        "The Death Guard are a traitor Legion descended from Mortarion.",
+        "Their warriors spread contagion while enduring extraordinary damage.",
+        "Mortarion became a Daemon Primarch devoted to Nurgle.",
+        "The Death Guard's relentless advance is accompanied by diseased weapons and corrupted machinery."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/SdX3yDd7/warhammer-40000-faction-focus-death-guard/"]
+    },
+    {
+      "title": "Tzeentch and the Thousand Sons", "aliases": ["tzeentch", "thousand sons", "magnus", "rubric", "ahriman", "sorcerer"],
+      "facts": [
+        "The Thousand Sons are the traitor sons of Magnus the Red.",
+        "They are closely associated with Tzeentch and sorcery.",
+        "Tzeentch is associated with change, schemes and magical power.",
+        "The Rubric left many Thousand Sons as dust sealed within their armour.",
+        "Rubric Marines fight under the direction of powerful sorcerers."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/jyv0zxf6/starting-a-thousand-sons-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "Slaanesh and the Emperor's Children", "aliases": ["slaanesh", "fulgrim", "emperor's children", "noise marine", "excess"],
+      "facts": [
+        "The Emperor's Children are a traitor Legion descended from Fulgrim.",
+        "Their pursuit of perfection became destructive obsession.",
+        "They embrace Slaanesh, the Chaos power associated with excess.",
+        "Their corruption took root during the Horus Heresy.",
+        "Noise Marines weaponise sound and sensory excess."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/hsqlxqbs/starting-an-emperors-children-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "Adeptus Astartes", "aliases": ["space marine", "space marines", "astartes", "chapter", "gene-seed", "ultramarines", "bolter"],
+      "facts": [
+        "Space Marines are genetically augmented superhuman warriors.",
+        "Their power armour enhances strength and protects them in extreme conditions.",
+        "Loyalist Space Marines are organised into Chapters with distinct traditions.",
+        "Their numbers are small compared with the Astra Militarum.",
+        "They are often deployed for decisive operations; Intercessors carry bolt rifles."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/cDcDzjwu/starting-a-space-marine-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "Astra Militarum and Imperial worlds", "aliases": ["astra militarum", "imperial guard", "guardsman", "cadian", "krieg", "lasgun", "hive world", "agri world"],
+      "facts": [
+        "The Astra Militarum is the Imperium's vast army of ordinary human soldiers.",
+        "Its regiments are raised from many worlds, each with its own training and traditions.",
+        "Tanks, artillery and massed infantry supply its overwhelming firepower.",
+        "Hive, agri, feral and death worlds can all supply regiments.",
+        "Cadian soldiers continue fighting after the destruction of their home world."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/mveiuxck/starting-an-astra-militarum-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "The Inquisition", "aliases": ["inquisition", "inquisitor", "ordo", "rogue trader", "assassin", "agent"],
+      "facts": [
+        "Inquisitors investigate hidden threats to the Imperium.",
+        "Their work includes interrogation, infiltration and the mobilisation of specialised forces.",
+        "They can call upon agents bound by Imperial service, contracts or obligations.",
+        "Imperial agents include assassins and independent specialists.",
+        "The Imperium's scale makes threats that evade its conventional armies inevitable."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/yaywiewj/starting-an-imperial-agents-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "Necron dynasties", "aliases": ["necron", "necrons", "necrontyr", "c'tan", "ctan", "biotransference", "tomb", "silent king", "cryptek"],
+      "facts": [
+        "Necrons are the machine-bodied descendants of the ancient Necrontyr.",
+        "Biotransference bound them into metal forms at terrible cost.",
+        "Their dynasties awaken from immense tomb complexes after ages of slumber.",
+        "Living metal permits remarkable repair and reanimation.",
+        "Destroyer Cults suffer a destructive madness, distinct from more ordered Necron forces."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/h2NwHfnF/starting-a-necron-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "Aeldari and the Fall", "aliases": ["aeldari", "eldar", "craftworld", "asuryani", "webway", "spirit stone", "fall", "drukhari"],
+      "facts": [
+        "The Aeldari are survivors of an ancient civilisation brought low by the Fall.",
+        "Slaanesh's birth devastated their old empire and continues to threaten their souls.",
+        "Craftworlds are immense vessels that shelter Asuryani societies.",
+        "Spirit stones protect the souls of many craftworld Aeldari after death.",
+        "The Webway is an ancient network of passages, distinct from ordinary Warp travel."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/s9vyktok/starting-an-aeldari-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "Orks", "aliases": ["ork", "orks", "waaagh", "mek", "warboss", "grot", "dakka"],
+      "facts": [
+        "Orks are widespread, warlike aliens who thrive on conflict.",
+        "Their infighting often prevents their full strength from uniting.",
+        "Warbosses dominate through strength; Meks build and repair ramshackle machinery.",
+        "A Waaagh! is a vast Ork mobilisation and rampage.",
+        "Ork vehicles include Trukks, Killa Kans, Dakkajets and enormous Stompas."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/lEuczqhi/starting-an-ork-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "Tyranids", "aliases": ["tyranid", "tyranids", "hive mind", "hive fleet", "synapse", "biomass", "leviathan"],
+      "facts": [
+        "Tyranids are extragalactic organisms that consume worlds' organic matter.",
+        "The Hive Mind coordinates their many specialised organisms.",
+        "Hive fleets are living swarms rather than conventional metal navies.",
+        "Tyranid organisms adapt to differing battlefield roles.",
+        "Hive Tyrants are powerful leader organisms; consumed worlds can be left lifeless."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/QtNy2Xp2/starting-a-tyranids-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "Genestealer Cults", "aliases": ["genestealer", "cult", "patriarch", "brood brother", "ascension", "space hulk"],
+      "facts": [
+        "Genestealers can infiltrate inhabited worlds as the vanguard of a Tyranid invasion.",
+        "Their cults spread secretly before launching open rebellion.",
+        "The Day of Ascension marks the uprising they regard as deliverance.",
+        "Brood Brothers are enthralled forces drawn from Imperial military organisations.",
+        "Cult expectations of salvation differ from the hive fleets' hunger."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/WdP1REPb/starting-a-genestealer-cults-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "T'au Empire", "aliases": ["tau", "t'au", "greater good", "ethereal", "kroot", "fire caste", "battlesuit"],
+      "facts": [
+        "The T'au are a comparatively young, rapidly developing power on the galaxy's eastern fringe.",
+        "Their guiding ideology is the Greater Good, or T'au'va.",
+        "The Ethereals lead their society; the Fire caste supplies its main military forces.",
+        "The empire expands through diplomacy and conquest, incorporating allied species.",
+        "T'au warfare relies on advanced ranged weapons, drones and battlesuits."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/qx7ln8cU/starting-a-tau-empire-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    },
+    {
+      "title": "Leagues of Votann", "aliases": ["votann", "kin", "leagues", "ancestor core", "ironkin", "hearthkyn"],
+      "facts": [
+        "The Kin organise into Leagues of Votann and inhabit the galactic core.",
+        "They prize ancestral knowledge, resources and their communities.",
+        "The Votann are ancient Ancestor Cores central to Kin society.",
+        "Ironkin are mechanical members of their communities.",
+        "Hernkyn Pioneers use magna-coil bikes for fast reconnaissance."
+      ],
+      "sources": ["https://www.warhammer-community.com/en-gb/articles/w7eootuv/starting-a-leagues-of-votann-army-in-warhammer-40000-everything-you-need-to-know-from-painting-to-lore/"]
+    }
+  ]
+}

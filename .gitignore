@@ -1,0 +1,17 @@
+# Local credentials, recordings, memories and model downloads
+zuliprc
+api-key.txt
+.env
+.env.*
+data/
+models/
+*.wav
+*.onnx
+*.onnx.json
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+dist/
+*.zip
+artifacts/marsi-design/preview-libraries/
